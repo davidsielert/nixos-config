@@ -9,7 +9,7 @@
     ./modules/xserver.nix
   ];
 
-  nixpkgs.overlays = [ inputs.polymc.overlay ];
+  nixpkgs.overlays = [  ];
 
   networking.hostName = "nixos"; # Define your hostname.
 

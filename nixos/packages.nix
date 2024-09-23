@@ -10,7 +10,7 @@
     chromium
     telegram-desktop
     alacritty
-    obs-studio
+    kitty
     rofi
     wofi
     mpv
@@ -20,14 +20,14 @@
     obsidian
     zoom-us
     pcmanfm-qt
-    polymc
+
 
     # Coding stuff
     gnumake
     gcc
     nodejs
     python
-    (python3.withPackages (ps: with ps; [ requests ]))
+    (python312.withPackages (ps: with ps; [ requests ]))
 
     # CLI utils
     neofetch
