@@ -8,8 +8,8 @@
       "<leader>fh" = "help_tags";
       "<leader>gf" = "git_files";
       "<leader>of" = "oldfiles";
-      # "<leader>fg" = "live_grep";
-      # "<leader>fd" = "diagnostics";
+      "<leader>fg" = "live_grep";
+      "<leader>fd" = "diagnostics";
     };
 
     #keymapsSilent = true;

@@ -4,7 +4,8 @@
     ./opts.nix
     ./keymaps.nix
     ./autocmds.nix
-    ./plugins/plugins-bundle.nix
+    ./plugins
+    #./plugins/plugins-bundle.nix
   ];
 
   programs.nixvim = {
