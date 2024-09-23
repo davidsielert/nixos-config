@@ -6,6 +6,7 @@
 
   environment.systemPackages = with pkgs; [
     # Desktop apps
+    wezterm
     audacity
     chromium
     telegram-desktop
@@ -20,7 +21,9 @@
     obsidian
     zoom-us
     pcmanfm-qt
-
+    open-vm-tools
+    gtk3
+    gtk4
 
     # Coding stuff
     gnumake

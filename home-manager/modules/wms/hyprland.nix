@@ -6,7 +6,7 @@
     settings = {
       "$mainMod" = "SUPER";
 
-      monitor = ",1920x1080@90,auto,1";
+      monitor = "Virtual-1,2560x1600@60,auto,1";
 
       env = [
         "XDG_CURRENT_DESKTOP,Hyprland"
@@ -92,6 +92,7 @@
 
       master = {
         #new_is_master = true;
+        new_status = "master";
       };
 
       gestures = {

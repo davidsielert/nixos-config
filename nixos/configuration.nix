@@ -1,4 +1,4 @@
-{ inputs, ...}: {
+{ inputs, pkgs, ...}: {
   imports = [
     ./hardware-configuration.nix
     ./packages.nix
@@ -20,4 +20,22 @@
   nix.settings.experimental-features = [ "nix-command" "flakes" ]; # Enabling flakes
 
   system.stateVersion = "24.05"; # Don't change it bro
+  hardware.graphics.enable = true;
+   xdg.portal = {
+
+      enable = true;
+
+        wlr.enable = false;
+
+        xdgOpenUsePortal = false;
+
+        extraPortals = [
+
+        pkgs.xdg-desktop-portal-hyprland
+
+        pkgs.xdg-desktop-portal-gtk
+
+      ];
+
+     };
 }

@@ -38,7 +38,7 @@
         inputs.nixvim.nixosModules.nixvim
       ];
     };
-
+    hardware.opengl.enable = true;
     homeConfigurations.david = home-manager.lib.homeManagerConfiguration {
       pkgs = nixpkgs.legacyPackages.${system};
       modules = [ ./home-manager/home.nix ];
