@@ -1,8 +1,8 @@
 {
   programs.git = {
     enable = true;
-    userName  = "David";
-    userEmail = "david@sielert.com";
+    userName  = "David Sielert";
+    userEmail = "456592+davidsielert@users.noreply.github.com";
     aliases = {
             ci = "commit";
             co = "checkout";

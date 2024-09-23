@@ -6,7 +6,7 @@
     settings = {
       "$mainMod" = "SUPER";
 
-      monitor = "Virtual-1,2560x1600@60,auto,1";
+      monitor = "Virtual-1,preferred,auto,1";
 
       env = [
         "XDG_CURRENT_DESKTOP,Hyprland"
@@ -16,6 +16,7 @@
         "QT_QPA_PLATFORM,wayland"
         "XDG_SCREENSHOTS_DIR,~/screens"
         "WLR_NO_HARDWARE_CURSORS,1"
+        "LIBGL_ALWAYS_SOFTWARE,1"
         "WLR_RENDERER_ALLOW_SOFTWARE,1"
       ];
 
@@ -25,9 +26,9 @@
       };
 
       input = {
-        kb_layout = "us,ru";
-        kb_variant = "lang";
-        kb_options = "grp:caps_toggle";
+        kb_layout = "us";
+        #kb_variant = "";
+        #kb_options = "grp:caps_toggle";
 
         follow_mouse = 1;
 
