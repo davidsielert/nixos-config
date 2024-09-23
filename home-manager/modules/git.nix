@@ -8,6 +8,7 @@
             co = "checkout";
             s = "status";
             a = "add";
+            st = "status";
           };
   };
 }
