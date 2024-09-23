@@ -24,7 +24,7 @@
     open-vm-tools
     gtk3
     gtk4
-
+    ripgrep
     # Coding stuff
     gnumake
     gcc
