@@ -47,7 +47,7 @@
 
         layout = "dwindle";
 
-        no_cursor_warps = false;
+        no_warps = false;
       };
 
       decoration = {
